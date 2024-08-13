@@ -55,6 +55,7 @@ def main():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument(
         "--local_rank",
+        "--local-rank",
         type=int,
         help=
         "Local rank. Necessary for using the torch.distributed.launch utility."
